@@ -1,0 +1,121 @@
+# 🛡️ Social Engineering Exercise – ParrotPost: Phishing Analysis
+
+**Platform:** TryHackMe  
+**Category:** Social Engineering / Phishing  
+**Author:** Aiman Solehin  
+**Date:** 4 January 2025  
+
+---
+
+## 1. Introduction
+
+Phishing attacks remain one of the most effective social engineering techniques used by attackers to compromise user accounts and sensitive information. By impersonating trusted services, attackers manipulate users into clicking malicious links or submitting credentials to fake websites.
+
+This write-up documents my learning experience from the **ParrotPost: Phishing Analysis** exercise on TryHackMe. The lab focuses on analyzing phishing emails that impersonate a fictional email service called ParrotPost, highlighting common phishing techniques used in real-world attacks.
+
+---
+
+## 2. Objectives
+
+The objectives of this exercise are:
+
+- To analyze phishing emails impersonating a legitimate service  
+- To identify common phishing indicators in email content  
+- To examine malicious links and deceptive messaging techniques  
+- To improve defensive awareness against phishing-based social engineering attacks  
+
+---
+
+## 3. Exercise Overview
+
+The **ParrotPost: Phishing Analysis** exercise presents a scenario where attackers send phishing emails pretending to originate from the ParrotPost email service. The task involves inspecting email content and links to determine whether the messages are legitimate or malicious.
+
+Key elements analyzed during this exercise include:
+
+- Sender email address and domain  
+- Email subject lines  
+- Embedded links and URLs  
+- Message content and tone  
+- Indicators of impersonation  
+
+---
+
+## 4. Methodology (High-Level Walkthrough)
+
+⚠️ *This section focuses on defensive analysis only.*
+
+### 4.1 Sender and Domain Analysis
+
+The sender’s email address and domain were analyzed to verify whether they matched the official ParrotPost service. Emails using lookalike domains or suspicious sender addresses were identified as phishing attempts.
+
+---
+
+### 4.2 Subject Line Evaluation
+
+Subject lines were reviewed for phishing characteristics such as:
+
+- Urgent security warnings  
+- Notifications about account issues  
+- Generic or misleading email subjects  
+
+---
+
+### 4.3 URL and Link Inspection
+
+Embedded links within the emails were carefully examined to identify:
+
+- Domains impersonating ParrotPost  
+- Misspelled or deceptive URLs  
+- Links redirecting users to fake login pages  
+
+---
+
+### 4.4 Email Content Analysis
+
+The email body was analyzed for:
+
+- Requests for login credentials or personal information  
+- Impersonation of ParrotPost support or security teams  
+- Psychological manipulation using urgency or fear  
+- Instructions encouraging immediate action  
+
+---
+
+## 5. Key Findings
+
+Several phishing techniques were identified throughout the exercise:
+
+- Impersonation of the ParrotPost email service  
+- Use of deceptive sender addresses and domains  
+- Urgent language prompting users to act quickly  
+- Embedded links leading to fraudulent login pages  
+- Attempts to harvest user credentials  
+
+These techniques closely resemble those used in real-world phishing campaigns.
+
+---
+
+## 6. Lessons Learned
+
+From completing this exercise, I learned that:
+
+- Trusted brand impersonation is a common phishing tactic  
+- URLs must always be verified before clicking  
+- Urgency is often used to override rational decision-making  
+- Even well-designed emails can be malicious  
+- User awareness is critical in preventing phishing attacks  
+
+---
+
+## 7. Conclusion
+
+The **ParrotPost: Phishing Analysis** exercise provided practical experience in identifying phishing emails that impersonate legitimate services. By carefully analyzing sender information, email content, and embedded links, I strengthened my ability to detect phishing attempts and understand attacker behavior.
+
+This exercise further enhanced my phishing analysis skills and reinforced the importance of cautious email handling in cybersecurity defense.
+
+---
+## 8. References
+
+- TryHackMe – ParrotPost: Phishing Analysis  
+- TryHackMe – Social Engineering Learning Path  
+- General phishing awareness and email security best practices
